@@ -16,8 +16,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'nakamorg', // Usually your GitHub org/user name.
+  projectName: 'nakamorg.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -51,13 +51,12 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // TODO: Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/bulldog.png',
     navbar: {
       title: 'nakamorg blogs',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg', // TODO: Replace with own logo
+        src: 'img/bulldog.png',
       },
       items: [
         {
@@ -66,7 +65,7 @@ const config: Config = {
           position: 'left'
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/nakamorg',
           label: 'GitHub',
           position: 'right',
         },
