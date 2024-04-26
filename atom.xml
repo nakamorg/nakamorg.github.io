@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://your-docusaurus-site.example.com</id>
+    <title>My Site Blog</title>
+    <updated>2024-04-26T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://your-docusaurus-site.example.com"/>
+    <subtitle>My Site Blog</subtitle>
+    <icon>https://your-docusaurus-site.example.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome Docusaurus]]></title>
+        <id>https://your-docusaurus-site.example.com/welcome-docusaurus-v2</id>
+        <link href="https://your-docusaurus-site.example.com/welcome-docusaurus-v2"/>
+        <updated>2024-04-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is my first post on Docusaurus.]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to this blog. This blog is created with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer"><strong>Docusaurus 2</strong></a>.</p>
+<p>This is my first post on Docusaurus 2.</p>
+<p>A whole bunch of exploration to follow.</p>]]></content>
+        <author>
+            <name>Poswal Umesh</name>
+            <uri>https://github.com/nakamume</uri>
+        </author>
+        <category label="hello" term="hello"/>
+        <category label="docusaurus-v2" term="docusaurus-v2"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Small Blog from Mr. Poswal]]></title>
+        <id>https://your-docusaurus-site.example.com/2024/04/25/small-blog</id>
+        <link href="https://your-docusaurus-site.example.com/2024/04/25/small-blog"/>
+        <updated>2024-04-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[All these will be part of the blog post summary of the small blog.]]></summary>
+        <content type="html"><![CDATA[<p>All these will be part of the blog post summary of the small blog.</p>
+<p>But anything from here on down will not be.</p>]]></content>
+        <author>
+            <name>Poswal Umesh</name>
+            <uri>https://github.com/nakamume</uri>
+        </author>
+    </entry>
+</feed>
