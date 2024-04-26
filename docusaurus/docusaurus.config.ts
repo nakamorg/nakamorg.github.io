@@ -16,8 +16,10 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'nakamorg', // Usually your GitHub org/user name.
-  projectName: 'nakamorg.github.io', // Usually your repo name.
+  organizationName: 'nakamorg',
+  projectName: 'nakamorg.github.io',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
