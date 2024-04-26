@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-site.example.com</id>
-    <title>My Site Blog</title>
+    <id>https://blogs.nakam.org</id>
+    <title>nakamorg Blog</title>
     <updated>2024-04-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-site.example.com"/>
-    <subtitle>My Site Blog</subtitle>
-    <icon>https://your-docusaurus-site.example.com/img/favicon.ico</icon>
+    <link rel="alternate" href="https://blogs.nakam.org"/>
+    <subtitle>nakamorg Blog</subtitle>
+    <icon>https://blogs.nakam.org/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://your-docusaurus-site.example.com/welcome-settled-on-blogging-platform</id>
-        <link href="https://your-docusaurus-site.example.com/welcome-settled-on-blogging-platform"/>
+        <id>https://blogs.nakam.org/welcome-settled-on-blogging-platform</id>
+        <link href="https://blogs.nakam.org/welcome-settled-on-blogging-platform"/>
         <updated>2024-04-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[I think I have settled on my blogging platform]]></summary>
         <content type="html"><![CDATA[<p>For last couple of years, I have been looking for platforms for publishing. I looked at couple of places but couldn't find what I was looking for. Here's a very short list of things I wanted for my setup</p>
@@ -39,8 +39,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Small Blog from Mr. Poswal]]></title>
-        <id>https://your-docusaurus-site.example.com/2024/04/25/small-blog</id>
-        <link href="https://your-docusaurus-site.example.com/2024/04/25/small-blog"/>
+        <id>https://blogs.nakam.org/2024/04/25/small-blog</id>
+        <link href="https://blogs.nakam.org/2024/04/25/small-blog"/>
         <updated>2024-04-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[All these will be part of the blog post summary of the small blog.]]></summary>
         <content type="html"><![CDATA[<p>All these will be part of the blog post summary of the small blog.</p>

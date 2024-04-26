@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>My Site Blog</title>
-        <link>https://your-docusaurus-site.example.com</link>
-        <description>My Site Blog</description>
+        <title>nakamorg Blog</title>
+        <link>https://blogs.nakam.org</link>
+        <description>nakamorg Blog</description>
         <lastBuildDate>Fri, 26 Apr 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://your-docusaurus-site.example.com/welcome-settled-on-blogging-platform</link>
-            <guid>https://your-docusaurus-site.example.com/welcome-settled-on-blogging-platform</guid>
+            <link>https://blogs.nakam.org/welcome-settled-on-blogging-platform</link>
+            <guid>https://blogs.nakam.org/welcome-settled-on-blogging-platform</guid>
             <pubDate>Fri, 26 Apr 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[I think I have settled on my blogging platform]]></description>
             <content:encoded><![CDATA[<p>For last couple of years, I have been looking for platforms for publishing. I looked at couple of places but couldn't find what I was looking for. Here's a very short list of things I wanted for my setup</p>
@@ -36,8 +36,8 @@
         </item>
         <item>
             <title><![CDATA[Small Blog from Mr. Poswal]]></title>
-            <link>https://your-docusaurus-site.example.com/2024/04/25/small-blog</link>
-            <guid>https://your-docusaurus-site.example.com/2024/04/25/small-blog</guid>
+            <link>https://blogs.nakam.org/2024/04/25/small-blog</link>
+            <guid>https://blogs.nakam.org/2024/04/25/small-blog</guid>
             <pubDate>Thu, 25 Apr 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[All these will be part of the blog post summary of the small blog.]]></description>
             <content:encoded><![CDATA[<p>All these will be part of the blog post summary of the small blog.</p>
