@@ -8,20 +8,34 @@
     <subtitle>My Site Blog</subtitle>
     <icon>https://your-docusaurus-site.example.com/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome Docusaurus]]></title>
-        <id>https://your-docusaurus-site.example.com/welcome-docusaurus-v2</id>
-        <link href="https://your-docusaurus-site.example.com/welcome-docusaurus-v2"/>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://your-docusaurus-site.example.com/welcome-settled-on-blogging-platform</id>
+        <link href="https://your-docusaurus-site.example.com/welcome-settled-on-blogging-platform"/>
         <updated>2024-04-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is my first post on Docusaurus.]]></summary>
-        <content type="html"><![CDATA[<p>Welcome to this blog. This blog is created with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer"><strong>Docusaurus 2</strong></a>.</p>
-<p>This is my first post on Docusaurus 2.</p>
-<p>A whole bunch of exploration to follow.</p>]]></content>
+        <summary type="html"><![CDATA[I think I have settled on my blogging platform]]></summary>
+        <content type="html"><![CDATA[<p>For last couple of years, I have been looking for platforms for publishing. I looked at couple of places but couldn't find what I was looking for. Here's a very short list of things I wanted for my setup</p>
+<ol>
+<li>I fully own my content without the need for specialized import/export jobs.</li>
+<li>I don't want to write CSS/HTML/JS myself. I would be happy writing simple txt files or use markdown files.</li>
+<li>Content can be tracked for changes over time.</li>
+<li>While I would certainly like many people to read what I write. I do not want big players suggesting my content to their "users". Information overload is a big issue.</li>
+<li>Organic content discovery.</li>
+<li>Mainly static. I do not want (anymore) comments or discussions on the platform itself. They can happen outside and I'd be happy to edit the blog to link those back.</li>
+</ol>
+<p>Of course, I didn't come with these requirements from the very begining and they may change over time.</p>
+<h1>Setup</h1>
+<p>So, what did I do to achieve what I wanted?</p>
+<p>I am in git and on Github, so using those for version controlling and storing the content made sense. I know if the content is on Github then I don't "own" it - they can pull the plug for some reason - but let's not get that cynical and I'll probably have the repo cloned on my local.</p>
+<p>For building the website, I did an internet search for <code>how to build blogging website using markdown files</code>. Couple of results showed up. Two notable were <a href="https://rust-lang.github.io/mdBook" target="_blank" rel="noopener noreferrer"><strong>mdbook</strong></a> and <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer"><strong>Docusaurus</strong></a>. I settled with Docusaurus as it provided some nice features like: tagging, read time estimations, rss feed, nicer looking UI out of the box and most importantly I didn't have to spend lots of time fidgeting with how to use it. Though it requires adding some metadata(<code>front matter</code>) to the markdown files, I guess I can live with it as it could be easily searched for, removed or edited if needed. I tried mdBook as well, and it felt very slick and clean for what it does and it took me under 10 minutes to set up compared to about an hour and half on Docusaurus. But it would have stitched all the blogs into a single book - which might not feel natural given that I might end up writing on bunch of stuff - which might not necessarily fit into a single book category.</p>
+<p>Given that I have the content on my local or on my Github account and its just some markdown files, there are a bunch of options for publishing like using AWS S3, Github Pages, my home-server (which I don't run 24/7). I went with github pages(with custom domain), as it was easy to use and it doesn't matter - I can change the publisher whenever I want.</p>
+<p>Well, I guess that is it. Welcome to this blog created with <strong>Docusaurus</strong> and currently being served from . . . maybe check the response headers and stuff because I don't know where it might end up six months from now.</p>]]></content>
         <author>
             <name>Poswal Umesh</name>
             <uri>https://github.com/nakamume</uri>
         </author>
         <category label="hello" term="hello"/>
-        <category label="docusaurus-v2" term="docusaurus-v2"/>
+        <category label="first" term="first"/>
+        <category label="welcome" term="welcome"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Small Blog from Mr. Poswal]]></title>
