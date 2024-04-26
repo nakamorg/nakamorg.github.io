@@ -3,13 +3,13 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'nakamorg',
+  tagline: "Everyone's a nakam@nakamorg",
   // TODO: Generate your own favicon
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://blogs.nakam.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -62,8 +62,8 @@ const config: Config = {
       },
       items: [
         {
-          label: 'Go Somewhere',
-          href: 'https://www.wikipedia.org',
+          label: 'RSS',
+          to: '/rss.xml',
           position: 'left'
         },
         {
