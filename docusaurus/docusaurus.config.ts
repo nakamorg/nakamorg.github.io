@@ -63,7 +63,7 @@ const config: Config = {
       items: [
         {
           label: 'RSS',
-          to: '/rss.xml',
+          href: 'https://blogs.nakam.org/rss.xml',
           position: 'left'
         },
         {
