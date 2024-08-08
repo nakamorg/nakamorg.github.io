@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'nakamorg',
+  title: 'nakam',
   tagline: "Everyone's a nakam@nakamorg",
   // TODO: Generate your own favicon
   favicon: 'img/favicon.ico',
@@ -34,16 +34,26 @@ const config: Config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       {
         docs: false,
         blog: {
           showReadingTime: true,
           path: '../blogs',
           routeBasePath: '/',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/nakamorg/nakamorg.github.io',
+          feedOptions: {
+            type: ['rss', 'atom'],
+            title: 'nakam blog',
+            copyright: 'nakam.org',
+            createFeedItems: async (params) => {
+              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+              return defaultCreateFeedItems({
+                // keep only the 10 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((item, index) => index < 10),
+                ...rest,
+              });
+            },
+          },
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -52,9 +62,37 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'second-blog',
+        blogTitle: 'Journal',
+        blogDescription: 'Daily journal',
+        routeBasePath: 'journal',
+        path: '../journal',
+        feedOptions: {
+          type: ['rss', 'atom'],
+          title: 'nakam blog',
+          description: 'A daily journal from nakam blog',
+          copyright: 'nakam.org',
+          createFeedItems: async (params) => {
+            const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+            return defaultCreateFeedItems({
+              // keep only the 10 most recent blog posts in the feed
+              blogPosts: blogPosts.filter((item, index) => index < 10),
+              ...rest,
+            });
+          },
+        },
+      },
+    ],
+  ],
+
   themeConfig: {
     image: 'img/bulldog.png',
     navbar: {
+      hideOnScroll: true,
       title: 'nakam blogs',
       logo: {
         alt: 'site logo',
@@ -62,14 +100,21 @@ const config: Config = {
       },
       items: [
         {
-          label: 'RSS',
-          href: 'https://blogs.nakam.org/rss.xml',
+          to: 'journal',
+          label: 'Journal',
           position: 'left'
         },
         {
-          href: 'https://github.com/nakamorg',
-          label: 'GitHub',
+          href: '/rss.xml',
           position: 'right',
+          className: 'feed-link',
+          'aria-label': 'RSS Feed',
+        },
+        {
+          href: 'https://github.com/nakamorg',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ],
     },
