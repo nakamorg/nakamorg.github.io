@@ -9,3 +9,9 @@ tags:
 - daily
 hide_table_of_contents: false
 ---
+Today has been a rollerposter of unexpectedness.
+
+<!-- truncate -->
+
+I've been trying to
+

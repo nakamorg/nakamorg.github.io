@@ -17,7 +17,13 @@ tags:
 - journal
 - daily
 hide_table_of_contents: false
----"
+---
+Today has been a please do something abu
+
+<!-- truncate -->
+
+This and those
+"
 
 # Write the content to the file
 echo "$content" > "$file_name"
