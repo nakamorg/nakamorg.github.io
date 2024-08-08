@@ -105,7 +105,8 @@ const config: Config = {
           position: 'left'
         },
         {
-          href: '/rss.xml',
+          // this needs to be complete url otherwise the build fails because of broken links
+          href: 'https://blog.nakam.org/rss.xml',
           position: 'right',
           className: 'feed-link',
           'aria-label': 'rss Feed',
