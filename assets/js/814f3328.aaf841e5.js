@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/welcome-settled-on-blogging-platform","unlisted":false},{"title":"Small Blog from Mr. Poswal","permalink":"/2024/04/25/small-blog","unlisted":false}]}')}}]);

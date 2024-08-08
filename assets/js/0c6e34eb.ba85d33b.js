@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[779],{2242:s=>{s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"2024-08-08 Daily Journal","permalink":"/journal/20240808-daily-journal","unlisted":false}]}')}}]);

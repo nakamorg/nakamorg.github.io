@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>nakam Blog</title>
+        <link>https://blog.nakam.org/journal</link>
+        <description>nakam Blog</description>
+        <lastBuildDate>Thu, 08 Aug 2024 08:56:02 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[2024-08-08 Daily Journal]]></title>
+            <link>https://blog.nakam.org/journal/20240808-daily-journal</link>
+            <guid>https://blog.nakam.org/journal/20240808-daily-journal</guid>
+            <pubDate>Thu, 08 Aug 2024 08:56:02 GMT</pubDate>
+            <description><![CDATA[Today has been a rollerposter of unexpectedness. At work I was working on a proposal to implement a mechanism to prevent normal pods  from scheduling to our K8s clusters before all of our critical daemonsets are ready. I drafted the proposal yesterday and presented it today. It went fine as is. It was pretty simple actually. We decided to use startupTaints on our Karpentor nodepools for each required daemonset and then made the daemonset responsible for removing the said taint ones it becomes ready.]]></description>
+            <content:encoded><![CDATA[<p>Today has been a rollerposter of unexpectedness. At work I was working on a proposal to implement a mechanism to prevent normal pods  from scheduling to our K8s clusters before all of our critical daemonsets are ready. I drafted the proposal yesterday and presented it today. It went fine as is. It was pretty simple actually. We decided to use <strong>startupTaints</strong> on our Karpentor nodepools for each required daemonset and then made the daemonset responsible for removing the said taint ones it becomes ready.</p>
+<p>As for the personal stuff, I wanted to start with a blog where I could write freely (without going into much details of the things) and about my daily life, routine. I've set up a docusaurus blog previously. I spent some time checking if the <strong>mdbook</strong> would be a good fit this daily journal blog. I fired up a test mdbook book and compared it with docusaurus style blog I had. Docusaurus style felt good to eyes (it looked nice) - so I decided to stick with docusaurus and started a second blog on same docusaurus instance. If you are reading this - you know how to reach this daily blog. I call it <em>daily blog</em> but I might not write up daily. As of now though, I feel pretty motivated to write frequently, maybe couple of time a week <!-- -->😀</p>]]></content:encoded>
+            <category>2024-08</category>
+            <category>2024</category>
+            <category>journal</category>
+            <category>daily</category>
+        </item>
+    </channel>
+</rss>
