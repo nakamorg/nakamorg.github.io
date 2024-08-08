@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.nakam.org/journal</id>
-    <title>nakam Blog</title>
+    <title>nakam blog</title>
     <updated>2024-08-08T08:56:02.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.nakam.org/journal"/>
-    <subtitle>nakam Blog</subtitle>
+    <subtitle>A daily journal from nakam blog</subtitle>
     <icon>https://blog.nakam.org/img/favicon.ico</icon>
+    <rights>nakam.org</rights>
     <entry>
         <title type="html"><![CDATA[2024-08-08 Daily Journal]]></title>
         <id>https://blog.nakam.org/journal/20240808-daily-journal</id>
