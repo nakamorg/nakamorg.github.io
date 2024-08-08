@@ -9,7 +9,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://blogs.nakam.org',
+  url: 'https://blog.nakam.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -55,9 +55,9 @@ const config: Config = {
   themeConfig: {
     image: 'img/bulldog.png',
     navbar: {
-      title: 'nakamorg blogs',
+      title: 'nakam blogs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'site logo',
         src: 'img/bulldog.png',
       },
       items: [
