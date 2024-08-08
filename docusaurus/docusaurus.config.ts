@@ -108,7 +108,7 @@ const config: Config = {
           href: '/rss.xml',
           position: 'right',
           className: 'feed-link',
-          'aria-label': 'RSS Feed',
+          'aria-label': 'rss Feed',
         },
         {
           href: 'https://github.com/nakamorg',
