@@ -18,11 +18,7 @@ tags:
 - daily
 hide_table_of_contents: false
 ---
-Today has been a please do something abu
-
-<!-- truncate -->
-
-This and those
+Today has been a please do something ab<!-- truncate -->out this and those.
 "
 
 # Write the content to the file
