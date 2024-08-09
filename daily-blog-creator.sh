@@ -16,7 +16,7 @@ tags:
 - '$(date +%Y)'
 - journal
 - daily
-hide_table_of_contents: false
+hide_table_of_contents: true
 ---
 Today has been a please do something ab<!-- truncate -->out this and those.
 "

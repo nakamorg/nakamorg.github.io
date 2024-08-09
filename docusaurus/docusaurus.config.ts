@@ -73,7 +73,7 @@ const config: Config = {
         path: '../journal',
         feedOptions: {
           type: ['rss', 'atom'],
-          title: 'nakam blog',
+          title: 'nakam journal',
           description: 'A daily journal from nakam blog',
           copyright: 'nakam.org',
           createFeedItems: async (params) => {
