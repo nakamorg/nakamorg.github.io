@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.nakam.org/journal</id>
-    <title>nakam blog</title>
-    <updated>2024-08-08T08:56:02.000Z</updated>
+    <title>nakam journal</title>
+    <updated>2024-08-09T01:22:03.046Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.nakam.org/journal"/>
     <subtitle>A daily journal from nakam blog</subtitle>
     <icon>https://blog.nakam.org/img/favicon.ico</icon>
     <rights>nakam.org</rights>
+    <entry>
+        <title type="html"><![CDATA[2024-08-09 Daily Journal]]></title>
+        <id>https://blog.nakam.org/journal/20240809-daily-journal</id>
+        <link href="https://blog.nakam.org/journal/20240809-daily-journal"/>
+        <updated>2024-08-09T01:22:03.046Z</updated>
+        <summary type="html"><![CDATA[Looks like I am on a streak. Third post within two days. There has been a major earthquake in Kyushu. Fortunately, we didn't feel anything in Tokyo and all the friends and family members are keeping safe.]]></summary>
+        <content type="html"><![CDATA[<p>Looks like I am on a streak. Third post within two days. There has been a major earthquake in Kyushu. Fortunately, we didn't feel anything in Tokyo and all the friends and family members are keeping safe.</p>
+<p>Tachan's first birthday is approaching and we are (mostly Maiko) deciding on what cakes to buy and about the decoration items as well. The primary cake has blueish hue and a brown bear (edible) on it and second one is a chocolate cake (again with a brown bear on it). Tachan can't eat chocolate as of now.</p>
+<p>Oh well, today I met (online) two colleges from our US office. We mostly talked about how to bootstrap a system at our company. The bootstapping stucture we have is a mess as of now because we are transitioning from legacy cluster and until we move off them, all the changes to the bootstrapping repo needs to be fully backward compatible. There were some major changes in how we handle new and legacy clusters, so it has become a major pain to sustain them together, at least for the end users - as the API we provide them for bootstrapping isn't very clean and intuitive.</p>
+<p>Any about the earthquake again, Meteorological Agency has issued "huge earthquake warning". This is gonna be a scare big weekend.</p>]]></content>
+        <author>
+            <name>Poswal Umesh</name>
+            <uri>https://github.com/nakamume</uri>
+        </author>
+        <category label="2024-08" term="2024-08"/>
+        <category label="2024" term="2024"/>
+        <category label="journal" term="journal"/>
+        <category label="daily" term="daily"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2024-08-08 Daily Journal]]></title>
         <id>https://blog.nakam.org/journal/20240808-daily-journal</id>
