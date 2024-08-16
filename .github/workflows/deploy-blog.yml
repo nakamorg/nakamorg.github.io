@@ -24,5 +24,12 @@ jobs:
       run: |
         npm ci
         npm run build
+      working-directory: docusaurus
+
+    - name: Deploy
+      run: |
         npm run deploy
       working-directory: docusaurus
+      env:
+        GIT_USER: github-actions
+        GIT_PASS: ${{ secrets.GITHUB_TOKEN }}
