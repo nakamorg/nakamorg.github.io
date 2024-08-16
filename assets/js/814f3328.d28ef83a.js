@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Started a second blog","permalink":"/started-second-blog","unlisted":false},{"title":"Welcome","permalink":"/welcome-settled-on-blogging-platform","unlisted":false}]}')}}]);
