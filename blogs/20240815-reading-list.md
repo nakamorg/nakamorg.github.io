@@ -11,7 +11,7 @@ I've been thinking about managing a reading list, basically a list of urls or ex
 
 ## 2024-08-15
 15th August - Independence Day, India
-- [medium.com/yandex/good-retry-bad-retry-an-incident-story](https://medium.com/yandex/good-retry-bad-retry-an-incident-story-648072d3cee6): Very interesting and fun read. Goes into the details of when and why `retries` should be used. How simple or simple exponetial backoff retries could be major issue when is system is recovering from downtime. Sugeests to use retries with `Retry Budget`, `Circuit Breaker`, `Load Shedding`, `Deadline Propogation` etc. Former two are implemented on client whereas later two on servers.
+- [medium.com/yandex/good-retry-bad-retry-an-incident-story](https://medium.com/yandex/good-retry-bad-retry-an-incident-story-648072d3cee6) - Very interesting and fun read. Goes into the details of when and why `retries` should be used. How simple or simple exponetial backoff retries could be major issue when is system is recovering from downtime. Sugeests to use retries with `Retry Budget`, `Circuit Breaker`, `Load Shedding`, `Deadline Propogation` etc. Former two are implemented on client whereas later two on servers.
 
 ## 2024-08-16
--
+- [isovalent.com/blog/post/demystifying-cni](https://isovalent.com/blog/post/demystifying-cni) - A short article briefly discusses the container runtime and network interface and goes on to build a CNI plugin using bash. Apparently, you only need two files. A conf file at `/etc/cni/net.d/` and a CNI executable at `/opt/cni/bin/`. CRI loads the first conf file and finds the corresponding executable and then calls the CNI executable as per the CNI spec.
