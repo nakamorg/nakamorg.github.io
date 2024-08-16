@@ -25,3 +25,17 @@ So, that worked. But only halfway. The last step `npm run deploy` failed asking 
         GIT_PASS: ${{ secrets.GITHUB_TOKEN }}
 ```
 I think it should work. I'm just not confident about the `GIT_USER` part. Should I use my github username there instead? Anyways, let's try pushing and see how it goes.
+
+The action run was succesful but it still didn't deploy, complaining about setting git user email and stuff. So, let's try with
+
+```yaml
+- name: Deploy
+  run: |
+    git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+    git config --global user.name "${{ github.actor }}"
+    npm run deploy
+  working-directory: docusaurus
+  env:
+    GIT_USER: ${{ github.actor }}
+    GIT_PASS: ${{ secrets.GITHUB_TOKEN }}
+```
