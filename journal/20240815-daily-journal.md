@@ -1,6 +1,6 @@
 ---
 title: 2024-08-15 Tachan got Roseola
-slug: 2024/Tachan got Roseola
+slug: 2024/tachan-got-roseola
 authors: [umesh]
 tags:
 - '2024-08'

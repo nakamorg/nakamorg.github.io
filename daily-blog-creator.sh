@@ -14,7 +14,7 @@ fi
 # Create the content
 content="---
 title: $(date +%F) <Change ME>
-slug: $(date +%Y) <change me>
+slug: $(date +%Y)/<change me>
 authors: [umesh]
 tags:
 - '$(date +%Y-%m)'

@@ -46,7 +46,8 @@ const config: Config = {
           path: '../blogs',
           routeBasePath: 'blog',
           feedOptions: {
-            type: ['rss', 'atom'],
+            xslt: true,
+            type: ['rss'],
             title: 'nakam blog',
             copyright: 'nakam.org',
             createFeedItems: async (params) => {
@@ -76,7 +77,8 @@ const config: Config = {
         routeBasePath: 'journal',
         path: '../journal',
         feedOptions: {
-          type: ['rss', 'atom'],
+          xslt: true,
+          type: ['rss'],
           title: 'nakam journal',
           description: 'A daily journal from nakam blog',
           copyright: 'nakam.org',
