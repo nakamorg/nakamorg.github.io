@@ -1,12 +1,11 @@
 ---
-title: 2024-08-09 Daily Journal
-slug: 20240809-daily-journal
+title: 2024-08-09 Birthday Preparation
+slug: 2024/birthday-preparation
 authors: [umesh]
 tags:
 - '2024-08'
 - '2024'
-- journal
-- daily
+- birthday
 hide_table_of_contents: true
 ---
 Looks like I am on a streak. Third post within two days. There has been a major earthquake<!-- truncate --> in Kyushu. Fortunately, we didn't feel anything in Tokyo and all the friends and family members are keeping safe.

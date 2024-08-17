@@ -1,12 +1,11 @@
 ---
-title: 2024-08-15 Daily Journal
-slug: 20240815-daily-journal
+title: 2024-08-15 Tachan got Roseola
+slug: 2024/Tachan got Roseola
 authors: [umesh]
 tags:
 - '2024-08'
 - '2024'
-- journal
-- daily
+- roseola
 hide_table_of_contents: true
 ---
 So the earthquake wasn't that severe but there definetely was one around 1945 JST and we<!-- truncate --> experienced something about of magnitude 2-3. I was on the second floor working out and talking to my mon on the phone and rushed down as it came. Maiko came with Tachan in her lap (it's out protocol to gather by the main door in the event of a quake). She then gathered all our emergency supplies by the door.

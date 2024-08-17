@@ -5,17 +5,20 @@ current_date=$(date +%Y%m%d)
 
 # Define the file name
 file_name="journal/${current_date}-daily-journal.md"
+# Check if the file already exists
+if [ -e "$file_name" ]; then
+  echo "File '$file_name' already exists. Aborting."
+  exit 0
+fi
 
 # Create the content
 content="---
-title: $(date +%F) Daily Journal
-slug: ${current_date}-daily-journal
+title: $(date +%F) <Change ME>
+slug: $(date +%Y) <change me>
 authors: [umesh]
 tags:
 - '$(date +%Y-%m)'
 - '$(date +%Y)'
-- journal
-- daily
 hide_table_of_contents: true
 ---
 Today has been a please do something ab<!-- truncate -->out this and those.
