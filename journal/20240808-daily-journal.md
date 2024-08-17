@@ -1,12 +1,10 @@
 ---
 title: 2024-08-08 Daily Journal
-slug: 20240808-daily-journal
+slug: 2024/daily-journal
 authors: [umesh]
 tags:
 - '2024-08'
 - '2024'
-- journal
-- daily
 hide_table_of_contents: false
 ---
 Today has been a rollerposter of unexpectedness. At work I was working on a proposal to implement a mechanism to prevent normal pods <!-- truncate --> from scheduling to our K8s clusters before all of our critical daemonsets are ready. I drafted the proposal yesterday and presented it today. It went fine as is. It was pretty simple actually. We decided to use **startupTaints** on our Karpentor nodepools for each required daemonset and then made the daemonset responsible for removing the said taint ones it becomes ready.

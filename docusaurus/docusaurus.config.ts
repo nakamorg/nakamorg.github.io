@@ -9,7 +9,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://blog.nakam.org',
+  url: 'https://www.nakam.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -37,12 +37,17 @@ const config: Config = {
       '@docusaurus/preset-classic',
       {
         docs: false,
+        pages: {
+          path: '../pages',
+          routeBasePath: '',
+        },
         blog: {
           showReadingTime: true,
           path: '../blogs',
-          routeBasePath: '/',
+          routeBasePath: 'blog',
           feedOptions: {
-            type: ['rss', 'atom'],
+            xslt: true,
+            type: ['rss'],
             title: 'nakam blog',
             copyright: 'nakam.org',
             createFeedItems: async (params) => {
@@ -72,7 +77,8 @@ const config: Config = {
         routeBasePath: 'journal',
         path: '../journal',
         feedOptions: {
-          type: ['rss', 'atom'],
+          xslt: true,
+          type: ['rss'],
           title: 'nakam journal',
           description: 'A daily journal from nakam blog',
           copyright: 'nakam.org',
@@ -93,12 +99,17 @@ const config: Config = {
     image: 'img/bulldog.png',
     navbar: {
       hideOnScroll: true,
-      title: 'nakam blogs',
+      title: 'nakam',
       logo: {
         alt: 'site logo',
         src: 'img/bulldog.png',
       },
       items: [
+        {
+          to: 'blog',
+          label: 'Blog',
+          position: 'left'
+        },
         {
           to: 'journal',
           label: 'Journal',
@@ -106,7 +117,7 @@ const config: Config = {
         },
         {
           // this needs to be complete url otherwise the build fails because of broken links
-          href: 'https://blog.nakam.org/rss.xml',
+          href: 'https://www.nakam.org/blog/rss.xml',
           position: 'right',
           className: 'feed-link',
           'aria-label': 'rss Feed',

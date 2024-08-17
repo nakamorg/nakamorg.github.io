@@ -1,12 +1,11 @@
 ---
-title: 2024-08-16 Daily Journal
-slug: 20240816-daily-journal
+title: Github Actions for the Blog
+slug: 2024/github-actions
 authors: [umesh]
 tags:
 - '2024-08'
 - '2024'
-- journal
-- daily
+- 'github action'
 hide_table_of_contents: true
 ---
 Thinking about adding github actions to build and deploy this blog instead of running them on a VM on my machine. For some reason<!-- truncate --> I couldn't get myself to install nodejs and npm on my regular workstation. Maybe I should do that as well.
@@ -39,4 +38,4 @@ The action run was succesful but it still didn't deploy, complaining about setti
     GIT_PASS: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-That was it. The blog is "on" now. All I have to do is write and push to master and github will take care of build, deploy and hosting. Good times. One more thing though, I'm not sure if the caching for node modules is working. Initial runs of `npm ci` took about 10 secs and the latest one with a cache hit took 6 secs - so maybe it's working? Maybe I can try doing `ls node_modules` in the github action and see or maybe there are other better options? But let's do that some other time. It's almost 19:18 and I need to get off working and start my work out.
+That was it. The blog is "on" now. All I have to do is write and push to master and github will take care of build, deploy and hosting. Good times. You can find the complete and up-to-date code in github workflows of [this repo](https://github.com/nakamorg/nakamorg.github.io). One more thing though, I'm not sure if the caching for node modules is working. Initial runs of `npm ci` took about 10 secs and the latest one with a cache hit took 6 secs - so maybe it's working? Maybe I can try doing `ls node_modules` in the github action and see or maybe there are other better options? But let's do that some other time. It's almost 19:18 and I need to get off working and start my work out.

@@ -1,6 +1,6 @@
 ---
 title: Reading List
-slug: reading-list
+slug: 2024/reading-list
 authors: [umesh]
 tags:
 - reading

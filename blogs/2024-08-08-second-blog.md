@@ -1,6 +1,6 @@
 ---
 title: Started a second blog
-slug: started-second-blog
+slug: 2024/started-second-blog
 authors: [umesh]
 tags:
 - '2024-08'
@@ -11,12 +11,11 @@ tags:
 - rss
 - 'custom css'
 ---
-For some time, I wanted to start with a daily blog. Yes, I know I started this blog about four months ago and have only two entries as of now (including this one). Guess I'm mostly into wasting my time finding which blog genertors to use and starting up a blog site but not into writing. Anyways, I wanted a new blog where I could write freely, without going into much details of the things, about my daily life and routine.<!-- truncate --> I've set up a docusaurus blog previously (the one you are currently reading). I spent some time checking if the **mdbook** would be a good fit for this daily journal blog. Fired up a test mdbook book and compared it with docusaurus style blog I had. Docusaurus style felt good to eyes (it looked nice) - so I decided to stick with docusaurus and started a second blog on same docusaurus instance. You can find it at [/journal](/journal) address of this site.
+For some time, I wanted to start with a daily blog. Yes, I know I started this blog about four months ago and have only two entries as of now (including this one). Guess I'm mostly into wasting<!-- truncate --> my time finding which blog genertors to use and starting up a blog site but not into writing. Anyways, I wanted a new blog where I could write freely, without going into much details of the things, about my daily life and routine. I've set up a docusaurus blog previously (the one you are currently reading). I spent some time checking if the **mdbook** would be a good fit for this daily journal blog. Fired up a test mdbook book and compared it with docusaurus style blog I had. Docusaurus style felt good to eyes (it looked nice) - so I decided to stick with docusaurus and started a second blog on same docusaurus instance. You can find it at [/journal](/journal) address of this site.
 
 ## Detail about the setup
 This blog lives at [nakamorg.github.io](https://github.com/nakamorg/nakamorg.github.io) github repo under the top level `blogs` folder. I created a new top level `journal` folder for the secondary blog. Idea is to dump any markdown file in that folder and have it served. To make it work, I updated the plugins section in my config file
-```js filename="docusaurus.config.ts"
-<filename=docusaurus.config.ts>
+```js title="docusaurus.config.ts"
 ....
 ....
 
@@ -52,7 +51,7 @@ This blog lives at [nakamorg.github.io](https://github.com/nakamorg/nakamorg.git
 ```
 
 That was it about adding a second blog. To make it easily accessable, I added another entry to the `navBar`
-```js
+```js title="docusaurus.config.ts"
   themeConfig: {
     navbar: {
       hideOnScroll: true,
@@ -83,7 +82,7 @@ That was it about adding a second blog. To make it easily accessable, I added an
 
 If you noticed there are navigation items for feed and github as well, more on them later. Well, that was mostly it. While writing my first journal/daily blog, I realized that it's front-matter follows a pattern. I asked ChatGPT to generate me a bash script to create the blog template. This is what the script looks like
 
-```bash
+```bash title="daily-blog-creator.sh"
 #!/bin/bash
 set -eu
 # Get the current date in the format yyyymmdd
@@ -111,7 +110,7 @@ echo "$content" > "$file_name"
 ```
 Running it would create a blog entry for that day. I used the `YYYY-MM` and `YYYY` tags - to make it easier to filter all the blogs from a particular year or month of the year.
 
-That's the end of it. After all this was done I ran the script and wrote the first daily blog, you can find it at [/journal/20240808-daily-journal](/journal/20240808-daily-journal).
+That's the end of it. After all this was done I ran the script and wrote the first daily blog, you can find it at [/journal/2024/daily-journal](/journal/2024/daily-journal).
 
 ## Other changes
 I took some time today to fix some glaring issues with this blog. Like fixing the favicon and github, rss icons.
@@ -122,7 +121,7 @@ Used [favicon-converter](https://favicon.io/favicon-converter/) on my profile im
 This is how the nav bar used to look before
 ![old nav bar](assets/navbar-20240808.png)
 The link for the rss feed of this blog and my github page looked so bad. I looked at how Docusaurus themselves have done it for their site and copied their config. So the navbar config looks like
-```js
+```js title="docusaurus.config.ts"
 ....
 
       items: [
@@ -143,7 +142,7 @@ The link for the rss feed of this blog and my github page looked so bad. I looke
 ....
 ```
 corresponding css config
-```css
+```css title="src/css/custom.css"
 ....
 
 .header-github-link::before {
