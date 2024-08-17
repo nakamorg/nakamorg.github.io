@@ -1,7 +1,6 @@
 ---
 title: Space time complexities for recursive algorithms
 slug: 2024/recusive-space-time-complexities
-authors: [umesh]
 tags:
 - '2024-08'
 - '2024'

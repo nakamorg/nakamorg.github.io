@@ -1,7 +1,6 @@
 ---
 title: 2024-08-17 Changed Everything
 slug: 2024/changed-everything
-authors: [umesh]
 tags:
 - '2024-08'
 - '2024'

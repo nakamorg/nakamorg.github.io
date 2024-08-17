@@ -1,7 +1,6 @@
 ---
 title: 2024-08-09 Birthday Preparation
 slug: 2024/birthday-preparation
-authors: [umesh]
 tags:
 - '2024-08'
 - '2024'

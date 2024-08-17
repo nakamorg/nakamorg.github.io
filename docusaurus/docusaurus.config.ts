@@ -130,9 +130,47 @@ const config: Config = {
         },
       ],
     },
+    colorMode: {
+      defaultMode: 'dark',
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    footer: {
+      copyright: `Copyright © ${new Date().getFullYear()} Nakam Org, Inc.`,
+      links: [
+        {
+          title: 'Blogs',
+          items: [
+            {
+              label: 'Blog',
+              to: 'blog',
+            },
+            {
+              label: 'Journal',
+              to: 'journal',
+            },
+          ],
+        },
+        {
+          title: 'Social',
+          items: [
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/nakam',
+            },
+            {
+              label: 'Github',
+              href: 'https://github.com/nakamume',
+            },
+            {
+              label: 'Insta',
+              href: 'https://www.instagram.com/poswal.ume'
+            },
+          ],
+        },
+      ],
     },
   } satisfies Preset.ThemeConfig,
 };

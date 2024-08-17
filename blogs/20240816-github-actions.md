@@ -1,7 +1,6 @@
 ---
 title: Github Actions for the Blog
 slug: 2024/github-actions
-authors: [umesh]
 tags:
 - '2024-08'
 - '2024'

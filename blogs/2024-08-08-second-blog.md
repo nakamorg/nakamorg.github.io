@@ -1,7 +1,6 @@
 ---
 title: Started a second blog
 slug: 2024/started-second-blog
-authors: [umesh]
 tags:
 - '2024-08'
 - '2024'

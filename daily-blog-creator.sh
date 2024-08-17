@@ -15,7 +15,6 @@ fi
 content="---
 title: $(date +%F) <Change ME>
 slug: $(date +%Y)/<change me>
-authors: [umesh]
 tags:
 - '$(date +%Y-%m)'
 - '$(date +%Y)'
