@@ -110,7 +110,7 @@ echo "$content" > "$file_name"
 ```
 Running it would create a blog entry for that day. I used the `YYYY-MM` and `YYYY` tags - to make it easier to filter all the blogs from a particular year or month of the year.
 
-That's the end of it. After all this was done I ran the script and wrote the first daily blog, you can find it at [/journal/20240808-daily-journal](/journal/20240808-daily-journal).
+That's the end of it. After all this was done I ran the script and wrote the first daily blog, you can find it at [/journal/2024/daily-journal](/journal/2024/daily-journal).
 
 ## Other changes
 I took some time today to fix some glaring issues with this blog. Like fixing the favicon and github, rss icons.
