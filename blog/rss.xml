@@ -4,7 +4,7 @@
         <title>nakam blog</title>
         <link>https://www.nakam.org/blog</link>
         <description>nakam Blog</description>
-        <lastBuildDate>Sat, 17 Aug 2024 15:39:41 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Aug 2024 15:31:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -13,7 +13,7 @@
             <title><![CDATA[Reading List]]></title>
             <link>https://www.nakam.org/blog/2024/reading-list</link>
             <guid>https://www.nakam.org/blog/2024/reading-list</guid>
-            <pubDate>Sat, 17 Aug 2024 15:39:41 GMT</pubDate>
+            <pubDate>Mon, 19 Aug 2024 15:31:55 GMT</pubDate>
             <description><![CDATA[I've been thinking about managing a reading list, basically a list of urls or excerpts as I read them or get to know about them. Previously, I set up Linkwarden for this but didn't use it much (or at all). Hoping that this rlog (running blog) can substitute that. Hopefully, I'll keep it updated with everything insteresting I read on day to day basis, but it'll mostly be media that I'd consume on my workstation (same machine I use to write this blog). Anyways, something is better than nothing. off we go]]></description>
             <content:encoded><![CDATA[<p>I've been thinking about managing a reading list, basically a list of urls or excerpts as I read them or get to know about them. Previously, I set up Linkwarden for this but didn't use it much (or at all). Hoping that this rlog (running blog) can substitute that. Hopefully, I'll keep it updated with everything insteresting I read on day to day basis, but it'll mostly be media that I'd consume on my workstation (same machine I use to write this blog). Anyways, something is better than nothing. off we go</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="2024-08-15">2024-08-15<a href="https://www.nakam.org/blog/2024/reading-list#2024-08-15" class="hash-link" aria-label="Direct link to 2024-08-15" title="Direct link to 2024-08-15">​</a></h2>
@@ -32,7 +32,7 @@
             <title><![CDATA[Github Actions for the Blog]]></title>
             <link>https://www.nakam.org/blog/2024/github-actions</link>
             <guid>https://www.nakam.org/blog/2024/github-actions</guid>
-            <pubDate>Sat, 17 Aug 2024 15:39:41 GMT</pubDate>
+            <pubDate>Mon, 19 Aug 2024 15:31:55 GMT</pubDate>
             <description><![CDATA[Thinking about adding github actions to build and deploy this blog instead of running them on a VM on my machine. For some reason I couldn't get myself to install nodejs and npm on my regular workstation. Maybe I should do that as well.]]></description>
             <content:encoded><![CDATA[<p>Thinking about adding github actions to build and deploy this blog instead of running them on a VM on my machine. For some reason I couldn't get myself to install nodejs and npm on my regular workstation. Maybe I should do that as well.</p>
 <p>But for the time being I'm going to try my luck with github actions. Just added a github workflow file and pushing this blog file to master should trigger that. So, let get triggering!</p>
