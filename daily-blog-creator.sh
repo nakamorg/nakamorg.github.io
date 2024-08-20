@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eu
 # Get the current date in the format yyyymmdd
-current_date=$(date +%Y%m%d)
+current_date=$(date +%F)
 
 # Define the file name
 file_name="journal/${current_date}-daily-journal.md"
@@ -13,8 +13,8 @@ fi
 
 # Create the content
 content="---
-title: $(date +%F) <Change ME>
-slug: $(date +%Y)/<change me>
+title: ${current_date} <Change ME>
+slug: ${current_date}/<change me>
 tags:
 - '$(date +%Y-%m)'
 - '$(date +%Y)'

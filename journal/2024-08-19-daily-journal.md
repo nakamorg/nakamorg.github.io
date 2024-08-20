@@ -31,3 +31,5 @@ And more complex features might include handling the cases where I or the person
 As of now, I'm very motivated. But, let's see how much motivation I can summon to actually implement it. I may or may not update this blog if I do actually end up implementing it. So, if you are interested, check out my github org [nakamorg](https://github.com/nakamorg). ChatGPT suggested using `calbridge` as the project name (along with some other suggestion, of course) - so that's what it will be.
 
 Side note: For some reason, most of my posts get same publishing date whenever I make a new deploy of the blog (which happens for any change that I make, however minute). I need to figure out a way to prevent that.
+
+[Update (2024-08-20)]: I think if I prefix my filename with date in (yyyy-mm-dd) that should fix the timestamp issue on the blog. I've made those changes and trying a deploy.
