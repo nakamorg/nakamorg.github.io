@@ -33,7 +33,7 @@
             <title><![CDATA[Github Actions for the Blog]]></title>
             <link>https://www.nakam.org/blog/2024/github-actions</link>
             <guid>https://www.nakam.org/blog/2024/github-actions</guid>
-            <pubDate>Fri, 16 Aug 2024 09:47:46 GMT</pubDate>
+            <pubDate>Fri, 16 Aug 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Thinking about adding github actions to build and deploy this blog instead of running them on a VM on my machine. For some reason I couldn't get myself to install nodejs and npm on my regular workstation. Maybe I should do that as well.]]></description>
             <content:encoded><![CDATA[<p>Thinking about adding github actions to build and deploy this blog instead of running them on a VM on my machine. For some reason I couldn't get myself to install nodejs and npm on my regular workstation. Maybe I should do that as well.</p>
 <p>But for the time being I'm going to try my luck with github actions. Just added a github workflow file and pushing this blog file to master should trigger that. So, let get triggering!</p>
