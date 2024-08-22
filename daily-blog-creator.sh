@@ -14,7 +14,7 @@ fi
 # Create the content
 content="---
 title: ${current_date} <Change ME>
-slug: ${current_date}/<change me>
+slug: $(date +%Y)/<change me>
 tags:
 - '$(date +%Y-%m)'
 - '$(date +%Y)'
