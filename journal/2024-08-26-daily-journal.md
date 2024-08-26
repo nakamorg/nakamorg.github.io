@@ -4,6 +4,8 @@ slug: 2024/tachan-first-birthday
 tags:
 - '2024-08'
 - '2024'
+- 'birthday'
+- 'tachan'
 hide_table_of_contents: true
 ---
 Last year, 27th August at 0145 JST, Tachan was born. It's 26th August today and time is 2351 JST and he is fast asleep by my side<!-- truncate --> as I'm writing this. He looks more cute and adorable while sleeping and I've to put all my strenth resisting myself not to hug him tightly and shower him with kisses.
