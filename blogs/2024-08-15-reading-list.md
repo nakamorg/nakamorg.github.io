@@ -14,3 +14,6 @@ I've been thinking about managing a reading list, basically a list of urls or ex
 
 ## 2024-08-16
 - [isovalent.com/blog/post/demystifying-cni](https://isovalent.com/blog/post/demystifying-cni) - A short article briefly discusses the container runtime and network interface and goes on to build a CNI plugin using bash. Apparently, you only need two files. A conf file at `/etc/cni/net.d/` and a CNI executable at `/opt/cni/bin/`. CRI loads the first conf file and finds the corresponding executable and then calls the CNI executable as per the CNI spec.
+
+## 2024-08-29
+- [CORS is stupid](https://kevincox.ca/2024/08/24/cors/) - For the last eight years of my career, this is the only post that made me understand cors and how it affects users.
