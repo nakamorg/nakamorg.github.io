@@ -45,6 +45,10 @@ const config: Config = {
           showReadingTime: true,
           path: '../blogs',
           routeBasePath: 'blog',
+          blogTitle: 'nakam blog',
+          blogDescription: 'All things nakam',
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
           feedOptions: {
             xslt: true,
             type: ['rss'],
@@ -76,6 +80,8 @@ const config: Config = {
         blogDescription: 'Daily journal',
         routeBasePath: 'journal',
         path: '../journal',
+        blogSidebarTitle: 'All posts',
+        blogSidebarCount: 'ALL',
         feedOptions: {
           xslt: true,
           type: ['rss'],
