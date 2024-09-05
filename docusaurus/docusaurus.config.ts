@@ -45,7 +45,7 @@ const config: Config = {
           showReadingTime: true,
           path: '../blogs',
           routeBasePath: 'blog',
-          blogTitle: 'nakam blog',
+          blogTitle: 'Nakam blog',
           blogDescription: 'All things nakam',
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
