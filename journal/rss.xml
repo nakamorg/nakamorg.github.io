@@ -4,11 +4,26 @@
         <title>nakam journal</title>
         <link>https://www.nakam.org/journal</link>
         <description>A daily journal from nakam blog</description>
-        <lastBuildDate>Tue, 03 Sep 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Sep 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>nakam.org</copyright>
+        <item>
+            <title><![CDATA[2024-09-05 Our Home]]></title>
+            <link>https://www.nakam.org/journal/2024/our-home</link>
+            <guid>https://www.nakam.org/journal/2024/our-home</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[I've had this bug of blogging a couple of times. But it seems that my current setup is kind of working, and I seem to be pretty consistent with it. Before this, I tried a couple of things and forgot about them. One of those things/platforms was Notion. I recently looked at my Notion pages and found I had a couple of entries there. One of those was about moving to our current home. Now, instead of copying and pasting the entry as-is here, I decided to write something fresh.]]></description>
+            <content:encoded><![CDATA[<p>I've had this bug of blogging a couple of times. But it seems that my current setup is kind of working, and I seem to be pretty consistent with it. Before this, I tried a couple of things and forgot about them. One of those things/platforms was Notion. I recently looked at my Notion pages and found I had a couple of entries there. One of those was about moving to our current home. Now, instead of copying and pasting the entry as-is here, I decided to write something fresh.</p>
+<p>We used to live in Hodogaya. That place was good, but we needed something bigger, quieter, and on the first/ground floor as we were expecting our first child. The last criterion, first/second floor, wasn't something we took into consideration when looking for a new place. But it's a great coincidence that we ended up with one, considering the stomping along with all the other sounds Tachan makes. Had there been any other tenant below us, we'd definitely have been evicted by now :sigh:</p>
+<p>Our current home is in Hiyoshi; we moved here on 18th Feb, 2023. It's a two-story detached house of around 80m^2. There's plenty of space for a home office, for doing yoga or a home gym, and for Tachan to run and play around.</p>
+<p>The place is overall much better than the previous one. There's no train line running just behind the house. Although I liked looking at the trains as they went by the previous house, they used to make a lot of noise as well, and we couldn't sleep or work with the windows open. And even though the train lines were just (about 10-20 meters) behind the house, the station was about 4 km away. The new house is about 20 minutes on foot from the Hiyoshi station, although if someone wants, they can take a bus (the bus stop is just about a minute's walk from the home) and be at the station in about 6-8 minutes. I usually take the bus to work if the sun is out and it's a bit hot but generally walk back home.</p>
+<p>Apart from the nice connectivity, there's a dentist, ENT clinic, medical store, and supermarket very close to the house. So most of the time, we don't have to walk more than five minutes for stuff.</p>
+<p>Overall, it's pretty good. One drawback is that it's pretty old (about 40 years at this point, I believe), and it gets a bit scary during earthquakes. And one more thing, I used to walk around a lot in Hodogaya. Here, not so much. Not quite sure why that is? Maybe because I don't have that much free time anymore, or it's the lack of sidewalks on the road near the house or the general lack of great scenery nearby—I like looking at buildings/house designs and such.</p>]]></content:encoded>
+            <category>2024-09</category>
+            <category>2024</category>
+        </item>
         <item>
             <title><![CDATA[2024-09-03 Birthday Celebration]]></title>
             <link>https://www.nakam.org/journal/2024/birthday-celebration</link>
@@ -127,6 +142,43 @@
 <p>As for personal stuff, I wanted to start a blog where I could write freely (without going into too much detail) about my daily life and routine. I've set up a Docusaurus blog previously. I spent some time checking if mdbook would be a good fit for this daily journal blog. I fired up a test <strong>mdbook</strong> and compared it with the Docusaurus-style blog I had. The Docusaurus style felt good to the eyes (it looked nice), so I decided to stick with Docusaurus and started a second blog on the same Docusaurus instance. If you are reading this, you know how to reach this daily blog. I call it a daily blog, but I might not write daily. As of now, though, I feel pretty motivated to write frequently, maybe a couple of times a week. <!-- -->😀</p>]]></content:encoded>
             <category>2024-08</category>
             <category>2024</category>
+        </item>
+        <item>
+            <title><![CDATA[2023-01-23 Layoff Season]]></title>
+            <link>https://www.nakam.org/journal/2023/layoff-season</link>
+            <guid>https://www.nakam.org/journal/2023/layoff-season</guid>
+            <pubDate>Mon, 23 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This entry I've copied from my Notion. That's the reason it belongs to 2023, even though I started this blog in August 2024. What follows next is the exact (with grammar and syntax fixed) entry from Notion.]]></description>
+            <content:encoded><![CDATA[<p>This entry I've copied from my Notion. That's the reason it belongs to 2023, even though I started this blog in August 2024. What follows next is the exact (with grammar and syntax fixed) entry from Notion.</p>
+<p>So the top tech companies around the world are firing people left and right. Below figures might not be accurate (as I don’t have time to pull in actual sources now), but this is what happened:</p>
+<ol>
+<li>Amazon fired over 18K employees worldwide.</li>
+<li>Netflix laid off about 300 last year.</li>
+<li>Google and Microsoft laid off about 10K each.</li>
+<li>Facebook (Meta) has been struggling with the metaverse and fired about 11K employees.</li>
+<li>There are lots of other lesser-known companies like my own (SmartNews), which fired 40% of its workforce, along with Shopify, Salesforce, and Goldman Sachs.</li>
+</ol>
+<p>Everyone is blaming over-hiring during 2020/2021 due to economic tailwinds and 2022 headwinds in the likely fear of a recession. While some companies are definitely struggling economically, others like Google, Microsoft, Amazon, and similar firms, which had huge profits and are still growing significantly, are just using the recession and weak economy as an excuse to trim their workforce.</p>
+<p>All this hiring and firing season added <code>tailwind</code> and <code>headwind</code> to my vocabulary.</p>]]></content:encoded>
+            <category>2023-01</category>
+            <category>2023</category>
+        </item>
+        <item>
+            <title><![CDATA[2023-01-19 Strategically Important]]></title>
+            <link>https://www.nakam.org/journal/2023/strategically-important</link>
+            <guid>https://www.nakam.org/journal/2023/strategically-important</guid>
+            <pubDate>Thu, 19 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This entry I've copied from my Notion. That's the reason it belongs to 2023, even though I started this blog in August 2024. This is around the time when my then company decided to fire 40% of the workforce. What follows next is the exact (with grammar and syntax fixed) entry from Notion.]]></description>
+            <content:encoded><![CDATA[<p>This entry I've copied from my Notion. That's the reason it belongs to 2023, even though I started this blog in August 2024. This is around the time when my then company decided to fire 40% of the workforce. What follows next is the exact (with grammar and syntax fixed) entry from Notion.</p>
+<p>On January 13, 2023, SmartNews fired ~40% of staff in the USA and China. Around a 40% reduction is expected to happen in Japan as well. Though they are asking for voluntary resignations (VRs), if the 40% quota isn’t reached with the VRs, people might be fired as deemed fit by the management. There was a 4-hour meeting with the SmartNews management. The CEO says he takes full responsibility for the layoffs—and by that he means to get SmartNews back on track and ensure that SmartNews achieves its mission of delivering quality information. 🤷 Isn't that his job?</p>
+<p>I talked with my manager today. He says <strong>my position</strong> is strategically important for the company's future, and they don’t plan to lay me off. Well, that’s some relief. If I apply for voluntary resignation, my application would be denied.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="thoughts">Thoughts<a href="https://www.nakam.org/journal/2023/strategically-important#thoughts" class="hash-link" aria-label="Direct link to Thoughts" title="Direct link to Thoughts">​</a></h2>
+<ul>
+<li>Roles/positions/departments are more important and are of strategic importance than the individuals. In hindsight, though, the individual might have been important; that’s why they were in that position/role.</li>
+<li>Companies/organizations serve their shareholders/stakeholders and are only loyal to the revenue and profits. They won’t think twice before firing you to save some costs.</li>
+</ul>]]></content:encoded>
+            <category>2023-01</category>
+            <category>2023</category>
         </item>
     </channel>
 </rss>
