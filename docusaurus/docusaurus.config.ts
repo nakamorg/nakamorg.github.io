@@ -1,6 +1,8 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 const config: Config = {
   title: 'nakam',
@@ -31,6 +33,16 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
+  ],
 
   presets: [
     [
@@ -44,6 +56,8 @@ const config: Config = {
         blog: {
           showReadingTime: true,
           path: '../blogs',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
           routeBasePath: 'blog',
           blogTitle: 'Nakam blog',
           blogDescription: 'All things nakam',
@@ -145,38 +159,6 @@ const config: Config = {
     },
     footer: {
       copyright: `Copyright © ${new Date().getFullYear()} Nakam Org, Inc.`,
-      links: [
-        {
-          title: 'Blogs',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'Journal',
-              to: 'journal',
-            },
-          ],
-        },
-        {
-          title: 'Social',
-          items: [
-            {
-              label: 'LinkedIn',
-              href: 'https://www.linkedin.com/in/nakam',
-            },
-            {
-              label: 'Github',
-              href: 'https://github.com/nakamume',
-            },
-            {
-              label: 'Insta',
-              href: 'https://www.instagram.com/poswal.ume'
-            },
-          ],
-        },
-      ],
     },
   } satisfies Preset.ThemeConfig,
 };
