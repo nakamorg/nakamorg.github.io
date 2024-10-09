@@ -8,7 +8,7 @@ hide_table_of_contents: false
 ---
 I started using the internet when I was in 10th grade, around 2010. My first exposure was through feature phones of that time, which could browse the web using some built-in browser. It was very expensive (around Rs.10/MB) and very slow (a couple of KBps).<!-- truncate --> The reason for that anecdote is to say that I am by no means a veteran, but the pace at which things are moving in this space is incredible.
 
-This technology is pretty awesome and very open, but human greed and ego, in my opinion, are doing more harm than good. It feels like the internet is not what it used to be and not what it could have been. There are too many walled gardens, unnecessary and frustrating hops, deceptive, manipulative, and sometimes outright illegal (or on the verge of that) activities being done, all in the name of "making the world a better place."
+This technology is pretty awesome, but human greed and ego, in my opinion, are doing more harm than good (maybe that was a bit of an overstatement). It feels like the internet is not what it used to be and not what it could have been. There are too many walled gardens, unnecessary and frustrating hops, deceptive, manipulative, and sometimes outright illegal (or on the verge of that) activities being done, all in the name of "making the world a better place."
 
 I'll try to keep this entry focused on the unnecessary and frustrating hops part. But first, let's go through some scenarios and see if we can spot the madness.
 
@@ -22,7 +22,7 @@ I'll try to keep this entry focused on the unnecessary and frustrating hops part
 6. Your friend takes it out and reads it.
 
 :::warning
-Fortunately, all these middlemen do not read your letters. But they can, without you or your friend knowing. So always encrypt those letters if you are sending something sensitive.
+Fortunately, all these middlemen do not read your letters. But they can, without you or your friend even knowing. So always encrypt those letters if you are sending something sensitive.
 :::
 
 The internet or computer networks work in a similar fashion. You attach the destination address to your packet and send it to your router, which forwards it to its neighbor and so on until the destination is reached.
