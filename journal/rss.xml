@@ -4,11 +4,23 @@
         <title>nakam journal</title>
         <link>https://www.nakam.org/journal</link>
         <description>A daily journal from nakam blog</description>
-        <lastBuildDate>Wed, 25 Sep 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Oct 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>nakam.org</copyright>
+        <item>
+            <title><![CDATA[2024-10-09 Friends Retrirement Party]]></title>
+            <link>https://www.nakam.org/journal/2024/friends-retrirement-party</link>
+            <guid>https://www.nakam.org/journal/2024/friends-retrirement-party</guid>
+            <pubDate>Wed, 09 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Maiko has gone for the evening for her friend's retirement party. Though because of some strange events of fate, everyone except the one being retired is going to join]]></description>
+            <content:encoded><![CDATA[<p>Maiko has gone for the evening for her friend's retirement party. Though because of some strange events of fate, everyone except the one being retired is going to join</p>
+<p>It turned out that the retiree had got COVID and got to know about it this morning. They messaged Maiko and told her that they are not going to make it to the party. Reservations were already made, Maiko called the restaurant and they told her that late cancellations would cost 3K per person. Now the remaining six people, including Maiko, didn't want to waste 3K/each, so they decided to go and enjoy themselves.</p>
+<p>Winter is finally here. It's been raining for the last two days and temperatures are under 20. The AC has been running on warm mode since yesterday night. A huge pile of laundry is being dried inside the second-floor room with the help of a fan. They are getting dried but have also gotten that weird smell that comes from wet clothes. It seems the sun will be out tomorrow and we and our laundry will be able to enjoy the outside.</p>]]></content:encoded>
+            <category>2024-10</category>
+            <category>2024</category>
+        </item>
         <item>
             <title><![CDATA[2024-09-25 Baby Girl Is Here]]></title>
             <link>https://www.nakam.org/journal/2024/baby-girl-is-here</link>
@@ -160,26 +172,6 @@
 <p>As for personal stuff, I wanted to start a blog where I could write freely (without going into too much detail) about my daily life and routine. I've set up a Docusaurus blog previously. I spent some time checking if mdbook would be a good fit for this daily journal blog. I fired up a test <strong>mdbook</strong> and compared it with the Docusaurus-style blog I had. The Docusaurus style felt good to the eyes (it looked nice), so I decided to stick with Docusaurus and started a second blog on the same Docusaurus instance. If you are reading this, you know how to reach this daily blog. I call it a daily blog, but I might not write daily. As of now, though, I feel pretty motivated to write frequently, maybe a couple of times a week. <!-- -->😀</p>]]></content:encoded>
             <category>2024-08</category>
             <category>2024</category>
-        </item>
-        <item>
-            <title><![CDATA[2023-01-23 Layoff Season]]></title>
-            <link>https://www.nakam.org/journal/2023/layoff-season</link>
-            <guid>https://www.nakam.org/journal/2023/layoff-season</guid>
-            <pubDate>Mon, 23 Jan 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[This entry I've copied from my Notion. That's the reason it belongs to 2023, even though I started this blog in August 2024. What follows next is the exact (with grammar and syntax fixed) entry from Notion.]]></description>
-            <content:encoded><![CDATA[<p>This entry I've copied from my Notion. That's the reason it belongs to 2023, even though I started this blog in August 2024. What follows next is the exact (with grammar and syntax fixed) entry from Notion.</p>
-<p>So the top tech companies around the world are firing people left and right. Below figures might not be accurate (as I don’t have time to pull in actual sources now), but this is what happened:</p>
-<ol>
-<li>Amazon fired over 18K employees worldwide.</li>
-<li>Netflix laid off about 300 last year.</li>
-<li>Google and Microsoft laid off about 10K each.</li>
-<li>Facebook (Meta) has been struggling with the metaverse and fired about 11K employees.</li>
-<li>There are lots of other lesser-known companies like my own (SmartNews), which fired 40% of its workforce, along with Shopify, Salesforce, and Goldman Sachs.</li>
-</ol>
-<p>Everyone is blaming over-hiring during 2020/2021 due to economic tailwinds and 2022 headwinds in the likely fear of a recession. While some companies are definitely struggling economically, others like Google, Microsoft, Amazon, and similar firms, which had huge profits and are still growing significantly, are just using the recession and weak economy as an excuse to trim their workforce.</p>
-<p>All this hiring and firing season added <code>tailwind</code> and <code>headwind</code> to my vocabulary.</p>]]></content:encoded>
-            <category>2023-01</category>
-            <category>2023</category>
         </item>
     </channel>
 </rss>
