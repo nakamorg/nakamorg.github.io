@@ -23,10 +23,7 @@
 <p>Senior Platform Engineer with 7+ years of experience managing large-scale cloud infrastructure (20+ Kubernetes clusters, 2K+ nodes) on AWS. Expertise in platform engineering, cloud-native architecture, and leading critical infrastructure initiatives focusing on stability, security, and cost optimization.</p>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="technical-skills">TECHNICAL SKILLS<a href="https://www.nakam.org/blog/resume#technical-skills" class="hash-link" aria-label="Direct link to TECHNICAL SKILLS" title="Direct link to TECHNICAL SKILLS">​</a></h3>
 <hr>
-<p><strong>Infrastructure &amp; Cloud</strong> AWS, Kubernetes, Terraform, Crossplane, CircleCI, ArgoCD, Packer, Helm
-<strong>Observability</strong>          OpenTelemetry, Honeycomb, Datadog, Prometheus, Grafana
-<strong>Languages</strong>              Go, Python, Bash, Java, Jsonnet
-<strong>Data &amp; Messaging</strong>       PostgreSQL, Redis, DynamoDB, Kafka</p>
+<table><tbody><tr><td><strong>Infrastructure &amp; Cloud</strong></td><td>AWS, Kubernetes, Terraform, Crossplane, CircleCI, ArgoCD, Packer, Helm</td></tr><tr><td><strong>Observability</strong></td><td>OpenTelemetry, Honeycomb, Datadog, Prometheus, Grafana</td></tr><tr><td><strong>Languages</strong></td><td>Go, Python, Bash, Java, Jsonnet</td></tr><tr><td><strong>Data &amp; Messaging</strong></td><td>PostgreSQL, Redis, DynamoDB, Kafka</td></tr></tbody></table>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="experience">EXPERIENCE<a href="https://www.nakam.org/blog/resume#experience" class="hash-link" aria-label="Direct link to EXPERIENCE" title="Direct link to EXPERIENCE">​</a></h3>
 <hr>
 <h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="senior-platform-engineer--smartnews-tokyo-july-2022---present">Senior Platform Engineer | SmartNews Tokyo (July 2022 - Present)<a href="https://www.nakam.org/blog/resume#senior-platform-engineer--smartnews-tokyo-july-2022---present" class="hash-link" aria-label="Direct link to Senior Platform Engineer | SmartNews Tokyo (July 2022 - Present)" title="Direct link to Senior Platform Engineer | SmartNews Tokyo (July 2022 - Present)">​</a></h4>

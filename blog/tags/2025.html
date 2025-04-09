@@ -9,7 +9,7 @@
 
 <link rel="alternate" type="application/rss+xml" href="/journal/rss.xml" title="nakam journal RSS Feed">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.9d3034e9.css">
-<script src="/assets/js/runtime~main.b9ca5caf.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.66463a2f.js" defer="defer"></script>
 <script src="/assets/js/main.07b12d08.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -18,46 +18,6 @@
 <p>Email: <a href="mailto:nakamume@gmail.com" target="_blank" rel="noopener noreferrer">nakamume@gmail.com</a> | LinkedIn: <a href="https://linkedin.com/in/nakamume" target="_blank" rel="noopener noreferrer">https://linkedin.com/in/nakamume</a> | Website: <a href="https://www.nakam.org" target="_blank" rel="noopener noreferrer">https://www.nakam.org</a></p>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="professional-summary">PROFESSIONAL SUMMARY<a href="#professional-summary" class="hash-link" aria-label="Direct link to PROFESSIONAL SUMMARY" title="Direct link to PROFESSIONAL SUMMARY">​</a></h3>
 <hr>
-<p>Senior Platform Engineer with 7+ years of experience managing large-scale cloud infrastructure (20+ Kubernetes clusters, 2K+ nodes) on AWS. Expertise in platform engineering, cloud-native architecture, and leading critical infrastructure initiatives focusing on stability, security, and cost optimization.</p>
-<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="technical-skills">TECHNICAL SKILLS<a href="#technical-skills" class="hash-link" aria-label="Direct link to TECHNICAL SKILLS" title="Direct link to TECHNICAL SKILLS">​</a></h3>
-<hr>
-<p><strong>Infrastructure &amp; Cloud</strong> AWS, Kubernetes, Terraform, Crossplane, CircleCI, ArgoCD, Packer, Helm
-<strong>Observability</strong>          OpenTelemetry, Honeycomb, Datadog, Prometheus, Grafana
-<strong>Languages</strong>              Go, Python, Bash, Java, Jsonnet
-<strong>Data &amp; Messaging</strong>       PostgreSQL, Redis, DynamoDB, Kafka</p>
-<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="experience">EXPERIENCE<a href="#experience" class="hash-link" aria-label="Direct link to EXPERIENCE" title="Direct link to EXPERIENCE">​</a></h3>
-<hr>
-<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="senior-platform-engineer--smartnews-tokyo-july-2022---present">Senior Platform Engineer | SmartNews Tokyo (July 2022 - Present)<a href="#senior-platform-engineer--smartnews-tokyo-july-2022---present" class="hash-link" aria-label="Direct link to Senior Platform Engineer | SmartNews Tokyo (July 2022 - Present)" title="Direct link to Senior Platform Engineer | SmartNews Tokyo (July 2022 - Present)">​</a></h4>
-<ul>
-<li>Led upgrade of 20+ EKS clusters (2K+ nodes) across 3 Kubernetes versions by implementing automated EC2 AMI building pipeline with Packer/CircleCI, coordinating API deprecation migrations with teams, and creating rollback strategies; resulted in zero-downtime upgrade and $60K/year savings in compute costs</li>
-<li>Scaled observability platform to handle 10B+ daily events by designing Kafka-based buffering system with otel-collector and Refinery; implemented adaptive autoscaling using historical load patterns and queue metrics, reducing compute costs by 50% and eliminating processing failures during peak loads</li>
-<li>Led multiple cross-team initiatives to optimize cloud infrastructure costs by $100K/year through systematic identification and cleanup of unused resources; developed automated policies for EBS snapshot lifecycle, load balancer pruning, and container image retention across 300+ projects</li>
-<li>Enhanced security compliance for ITGC/ISMS by architecting strict production/non-production separation; migrated 300+ projects from static credentials to OIDC tokens in CircleCI, implemented IAM role boundaries, and leveraged VPC flow logs for cross-environment access detection</li>
-<li>Modernized infrastructure management by implementing Crossplane-based provisioning for 100+ systems; replaced ad-hoc Terraform workflows with continuous reconciliation, managing permissions for developers, pipelines and service-accounts across AWS and Kubernetes resources</li>
-<li>Led dual-stack networking migration initiative by implementing IPv6 support across VPCs with zero downtime; modified AWS load balancer and DNS controllers for IPv6/AAAA record support, created migration playbooks and delegated migration tasks, resulting in reduced IPv4 costs and improved network scalability</li>
-<li>Improved incident response by establishing and following structured protocols for critical production issues; successfully resolved IPv6 routing failures in ad systems, CI/CD pipeline outages, cross-cluster DNS conflicts, and container registry throttling with minimal business impact</li>
-</ul>
-<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="platform-engineer--smartnews-tokyo-dec-2021---june-2022">Platform Engineer | SmartNews Tokyo (Dec 2021 - June 2022)<a href="#platform-engineer--smartnews-tokyo-dec-2021---june-2022" class="hash-link" aria-label="Direct link to Platform Engineer | SmartNews Tokyo (Dec 2021 - June 2022)" title="Direct link to Platform Engineer | SmartNews Tokyo (Dec 2021 - June 2022)">​</a></h4>
-<ul>
-<li>Enhanced security by replacing the legacy bastion EC2 instance that used shared SSH key by a group of ephemeral tunnel instances; implemented CLI tool which leveraged AWS EC2 Connect, AWS IAM-based authentication and SSH ProxyCommand, reducing security risks while maintaining familiar SSH workflows for 200+ developers</li>
-<li>Designed and implemented standardized E2E testing framework for Kubernetes controllers; built reusable components for infrastructure testing (pod creation, DNS resolution, load balancer provisioning), integrated automated metrics collection and alerting into the framework resulting in reduced MTTR</li>
-</ul>
-<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="software-engineer---2--telus-international-nov-2019---nov-2021">Software Engineer - 2 | Telus International (Nov 2019 - Nov 2021)<a href="#software-engineer---2--telus-international-nov-2019---nov-2021" class="hash-link" aria-label="Direct link to Software Engineer - 2 | Telus International (Nov 2019 - Nov 2021)" title="Direct link to Software Engineer - 2 | Telus International (Nov 2019 - Nov 2021)">​</a></h4>
-<ul>
-<li>Led 17-person distributed team through infrastructure split during company separation; designed and executed zero-downtime migration strategy for 10+ services, maintaining 99.9% uptime during transition with minimal impact to developer productivity</li>
-<li>Improved CI/CD reliability by implementing Jenkins pipelines-as-code using Jenkins DSL plugin, replacing manual pipeline management in Jenkins UI; migrated 50+ pipelines, implemented Git-based version control with PR reviews, enabling automated rollbacks and disaster recovery</li>
-</ul>
-<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="software-engineer--works-applications-tokyo-oct-2017---oct-2019">Software Engineer | Works Applications Tokyo (Oct 2017 - Oct 2019)<a href="#software-engineer--works-applications-tokyo-oct-2017---oct-2019" class="hash-link" aria-label="Direct link to Software Engineer | Works Applications Tokyo (Oct 2017 - Oct 2019)" title="Direct link to Software Engineer | Works Applications Tokyo (Oct 2017 - Oct 2019)">​</a></h4>
-<ul>
-<li>Reduced operational toil by developing ChatOps automation platform; integrated with internal systems using custom APIs, automated common workflows for attendance tracking and ticket management serving 100+ employees</li>
-<li>Decreased cloud costs by $36K/year through automated environment schedule management; built scheduler system with custom policies for 10+ development environments, implemented usage analytics and shutdown procedures</li>
-</ul>
-<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="education">EDUCATION<a href="#education" class="hash-link" aria-label="Direct link to EDUCATION" title="Direct link to EDUCATION">​</a></h3>
-<hr>
-<p>BTech in Computer Science | Indian Institute of Technology, Bhubaneswar | GPA: 8.6/10 (2014-2017)</p>
-<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="certificates">CERTIFICATES<a href="#certificates" class="hash-link" aria-label="Direct link to CERTIFICATES" title="Direct link to CERTIFICATES">​</a></h3>
-<hr>
-<p>AWS Solutions Architect Professional, CKA - Certified Kubernetes Administrator, AWS SysOps Administrator, Azure Administrator Associate
-Verifiable at: credly.com/users/umesh-poswal/badges (though most of these might be expired by now)</p></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/blog/tags/2025-04">2025-04</a></li><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/blog/tags/2025">2025</a></li></ul></div></footer></article><nav class="pagination-nav" aria-label="Blog list page navigation"></nav></main></div></div></div><footer class="footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Nakam Org, Inc.</div></div></div></footer></div>
+<p>Senior Platform Engineer with 7+ years of experience managing large-scale cloud infrastructure (20+ Kubernetes clusters, 2K+ nodes) on AWS. Expertise in platform engineering, cloud-native architecture, and leading critical infrastructure initiatives focusing on stability, security, and cost optimization.</p></div><footer class="row docusaurus-mt-lg"><div class="col col--9"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/blog/tags/2025-04">2025-04</a></li><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/blog/tags/2025">2025</a></li></ul></div><div class="col text--right col--3"><a aria-label="Read more about 20XX-XX-XX Resume" href="/blog/resume"><b>Read more</b></a></div></footer></article><nav class="pagination-nav" aria-label="Blog list page navigation"></nav></main></div></div></div><footer class="footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Nakam Org, Inc.</div></div></div></footer></div>
 </body>
 </html>
