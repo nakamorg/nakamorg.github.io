@@ -4,11 +4,66 @@
         <title>nakam blog</title>
         <link>https://www.nakam.org/blog</link>
         <description>nakam Blog</description>
-        <lastBuildDate>Thu, 17 Oct 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>nakam.org</copyright>
+        <item>
+            <title><![CDATA[20XX-XX-XX Resume]]></title>
+            <link>https://www.nakam.org/blog/resume</link>
+            <guid>https://www.nakam.org/blog/resume</guid>
+            <pubDate>Wed, 09 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Umesh Poswal | Senior Platform Engineer]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="umesh-poswal--senior-platform-engineer">Umesh Poswal | Senior Platform Engineer<a href="https://www.nakam.org/blog/resume#umesh-poswal--senior-platform-engineer" class="hash-link" aria-label="Direct link to Umesh Poswal | Senior Platform Engineer" title="Direct link to Umesh Poswal | Senior Platform Engineer">​</a></h2>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="smartnews--tokyo">SmartNews | Tokyo<a href="https://www.nakam.org/blog/resume#smartnews--tokyo" class="hash-link" aria-label="Direct link to SmartNews | Tokyo" title="Direct link to SmartNews | Tokyo">​</a></h3>
+<p>Email: <a href="mailto:nakamume@gmail.com" target="_blank" rel="noopener noreferrer">nakamume@gmail.com</a> | LinkedIn: <a href="https://linkedin.com/in/nakamume" target="_blank" rel="noopener noreferrer">https://linkedin.com/in/nakamume</a> | Website: <a href="https://www.nakam.org/" target="_blank" rel="noopener noreferrer">https://www.nakam.org</a></p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="professional-summary">PROFESSIONAL SUMMARY<a href="https://www.nakam.org/blog/resume#professional-summary" class="hash-link" aria-label="Direct link to PROFESSIONAL SUMMARY" title="Direct link to PROFESSIONAL SUMMARY">​</a></h3>
+<hr>
+<p>Senior Platform Engineer with 7+ years of experience managing large-scale cloud infrastructure (20+ Kubernetes clusters, 2K+ nodes) on AWS. Expertise in platform engineering, cloud-native architecture, and leading critical infrastructure initiatives focusing on stability, security, and cost optimization.</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="technical-skills">TECHNICAL SKILLS<a href="https://www.nakam.org/blog/resume#technical-skills" class="hash-link" aria-label="Direct link to TECHNICAL SKILLS" title="Direct link to TECHNICAL SKILLS">​</a></h3>
+<hr>
+<p><strong>Infrastructure &amp; Cloud</strong> AWS, Kubernetes, Terraform, Crossplane, CircleCI, ArgoCD, Packer, Helm
+<strong>Observability</strong>          OpenTelemetry, Honeycomb, Datadog, Prometheus, Grafana
+<strong>Languages</strong>              Go, Python, Bash, Java, Jsonnet
+<strong>Data &amp; Messaging</strong>       PostgreSQL, Redis, DynamoDB, Kafka</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="experience">EXPERIENCE<a href="https://www.nakam.org/blog/resume#experience" class="hash-link" aria-label="Direct link to EXPERIENCE" title="Direct link to EXPERIENCE">​</a></h3>
+<hr>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="senior-platform-engineer--smartnews-tokyo-july-2022---present">Senior Platform Engineer | SmartNews Tokyo (July 2022 - Present)<a href="https://www.nakam.org/blog/resume#senior-platform-engineer--smartnews-tokyo-july-2022---present" class="hash-link" aria-label="Direct link to Senior Platform Engineer | SmartNews Tokyo (July 2022 - Present)" title="Direct link to Senior Platform Engineer | SmartNews Tokyo (July 2022 - Present)">​</a></h4>
+<ul>
+<li>Led upgrade of 20+ EKS clusters (2K+ nodes) across 3 Kubernetes versions by implementing automated EC2 AMI building pipeline with Packer/CircleCI, coordinating API deprecation migrations with teams, and creating rollback strategies; resulted in zero-downtime upgrade and $60K/year savings in compute costs</li>
+<li>Scaled observability platform to handle 10B+ daily events by designing Kafka-based buffering system with otel-collector and Refinery; implemented adaptive autoscaling using historical load patterns and queue metrics, reducing compute costs by 50% and eliminating processing failures during peak loads</li>
+<li>Led multiple cross-team initiatives to optimize cloud infrastructure costs by $100K/year through systematic identification and cleanup of unused resources; developed automated policies for EBS snapshot lifecycle, load balancer pruning, and container image retention across 300+ projects</li>
+<li>Enhanced security compliance for ITGC/ISMS by architecting strict production/non-production separation; migrated 300+ projects from static credentials to OIDC tokens in CircleCI, implemented IAM role boundaries, and leveraged VPC flow logs for cross-environment access detection</li>
+<li>Modernized infrastructure management by implementing Crossplane-based provisioning for 100+ systems; replaced ad-hoc Terraform workflows with continuous reconciliation, managing permissions for developers, pipelines and service-accounts across AWS and Kubernetes resources</li>
+<li>Led dual-stack networking migration initiative by implementing IPv6 support across VPCs with zero downtime; modified AWS load balancer and DNS controllers for IPv6/AAAA record support, created migration playbooks and delegated migration tasks, resulting in reduced IPv4 costs and improved network scalability</li>
+<li>Improved incident response by establishing and following structured protocols for critical production issues; successfully resolved IPv6 routing failures in ad systems, CI/CD pipeline outages, cross-cluster DNS conflicts, and container registry throttling with minimal business impact</li>
+</ul>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="platform-engineer--smartnews-tokyo-dec-2021---june-2022">Platform Engineer | SmartNews Tokyo (Dec 2021 - June 2022)<a href="https://www.nakam.org/blog/resume#platform-engineer--smartnews-tokyo-dec-2021---june-2022" class="hash-link" aria-label="Direct link to Platform Engineer | SmartNews Tokyo (Dec 2021 - June 2022)" title="Direct link to Platform Engineer | SmartNews Tokyo (Dec 2021 - June 2022)">​</a></h4>
+<ul>
+<li>Enhanced security by replacing the legacy bastion EC2 instance that used shared SSH key by a group of ephemeral tunnel instances; implemented CLI tool which leveraged AWS EC2 Connect, AWS IAM-based authentication and SSH ProxyCommand, reducing security risks while maintaining familiar SSH workflows for 200+ developers</li>
+<li>Designed and implemented standardized E2E testing framework for Kubernetes controllers; built reusable components for infrastructure testing (pod creation, DNS resolution, load balancer provisioning), integrated automated metrics collection and alerting into the framework resulting in reduced MTTR</li>
+</ul>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="software-engineer---2--telus-international-nov-2019---nov-2021">Software Engineer - 2 | Telus International (Nov 2019 - Nov 2021)<a href="https://www.nakam.org/blog/resume#software-engineer---2--telus-international-nov-2019---nov-2021" class="hash-link" aria-label="Direct link to Software Engineer - 2 | Telus International (Nov 2019 - Nov 2021)" title="Direct link to Software Engineer - 2 | Telus International (Nov 2019 - Nov 2021)">​</a></h4>
+<ul>
+<li>Led 17-person distributed team through infrastructure split during company separation; designed and executed zero-downtime migration strategy for 10+ services, maintaining 99.9% uptime during transition with minimal impact to developer productivity</li>
+<li>Improved CI/CD reliability by implementing Jenkins pipelines-as-code using Jenkins DSL plugin, replacing manual pipeline management in Jenkins UI; migrated 50+ pipelines, implemented Git-based version control with PR reviews, enabling automated rollbacks and disaster recovery</li>
+</ul>
+<h4 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="software-engineer--works-applications-tokyo-oct-2017---oct-2019">Software Engineer | Works Applications Tokyo (Oct 2017 - Oct 2019)<a href="https://www.nakam.org/blog/resume#software-engineer--works-applications-tokyo-oct-2017---oct-2019" class="hash-link" aria-label="Direct link to Software Engineer | Works Applications Tokyo (Oct 2017 - Oct 2019)" title="Direct link to Software Engineer | Works Applications Tokyo (Oct 2017 - Oct 2019)">​</a></h4>
+<ul>
+<li>Reduced operational toil by developing ChatOps automation platform; integrated with internal systems using custom APIs, automated common workflows for attendance tracking and ticket management serving 100+ employees</li>
+<li>Decreased cloud costs by $36K/year through automated environment schedule management; built scheduler system with custom policies for 10+ development environments, implemented usage analytics and shutdown procedures</li>
+</ul>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="education">EDUCATION<a href="https://www.nakam.org/blog/resume#education" class="hash-link" aria-label="Direct link to EDUCATION" title="Direct link to EDUCATION">​</a></h3>
+<hr>
+<p>BTech in Computer Science | Indian Institute of Technology, Bhubaneswar | GPA: 8.6/10 (2014-2017)</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="certificates">CERTIFICATES<a href="https://www.nakam.org/blog/resume#certificates" class="hash-link" aria-label="Direct link to CERTIFICATES" title="Direct link to CERTIFICATES">​</a></h3>
+<hr>
+<p>AWS Solutions Architect Professional, CKA - Certified Kubernetes Administrator, AWS SysOps Administrator, Azure Administrator Associate
+Verifiable at: credly.com/users/umesh-poswal/badges (though most of these might be expired by now)</p>]]></content:encoded>
+            <category>2025-04</category>
+            <category>2025</category>
+        </item>
         <item>
             <title><![CDATA[2024-10-17 Docker On Macs]]></title>
             <link>https://www.nakam.org/blog/2024/docker-on-macs</link>
@@ -392,31 +447,6 @@ The link for the rss feed of this blog and my github page looked so bad. I looke
             <category>multiple blogs</category>
             <category>rss</category>
             <category>custom css</category>
-        </item>
-        <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://www.nakam.org/blog/2024/blogging-platform</link>
-            <guid>https://www.nakam.org/blog/2024/blogging-platform</guid>
-            <pubDate>Fri, 26 Apr 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[I think I have settled on my blogging platform]]></description>
-            <content:encoded><![CDATA[<p>For last couple of years, I have been looking for platforms for publishing. I looked at couple of places but couldn't find what I was looking for. Here's a very short list of things I wanted for my setup</p>
-<ol>
-<li>I fully own my content without the need for specialized import/export jobs.</li>
-<li>I don't want to write CSS/HTML/JS myself. I would be happy writing simple txt files or use markdown files.</li>
-<li>Content can be tracked for changes over time.</li>
-<li>While I would certainly like many people to read what I write. I do not want big players suggesting my content to their "users". Information overload is a big issue.</li>
-<li>Organic content discovery.</li>
-<li>Mainly static. I do not want (anymore) comments or discussions on the platform itself. They can happen outside and I'd be happy to edit the blog to link those back.</li>
-</ol>
-<p>Of course, I didn't come with these requirements from the very begining and they may change over time.</p>
-<h1>Setup</h1>
-<p>So, what did I do to achieve what I wanted?</p>
-<p>I am in git and on Github, so using those for version controlling and storing the content made sense. I know if the content is on Github then I don't "own" it - they can pull the plug for some reason - but let's not get that cynical and I'll probably have the repo cloned on my local.</p>
-<p>For building the website, I did an internet search for <code>how to build blogging website using markdown files</code>. Couple of results showed up. Two notable were <a href="https://rust-lang.github.io/mdBook" target="_blank" rel="noopener noreferrer"><strong>mdbook</strong></a> and <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer"><strong>Docusaurus</strong></a>. I settled with Docusaurus as it provided some nice features like: tagging, read time estimations, rss feed, nicer looking UI out of the box and most importantly I didn't have to spend lots of time fidgeting with how to use it. Though it requires adding some metadata(<code>front matter</code>) to the markdown files, I guess I can live with it as it could be easily searched for, removed or edited if needed. I tried mdBook as well, and it felt very slick and clean for what it does and it took me under 10 minutes to set up compared to about an hour and half on Docusaurus. But it would have stitched all the blogs into a single book - which might not feel natural given that I might end up writing on bunch of stuff - which might not necessarily fit into a single book category.</p>
-<p>Given that I have the content on my local or on my Github account and its just some markdown files, there are a bunch of options for publishing like using AWS S3, Github Pages, my home-server (which I don't run 24/7). I went with github pages(with custom domain), as it was easy to use and it doesn't matter - I can change the publisher whenever I want.</p>
-<p>Well, I guess that is it. Welcome to this blog created with <strong>Docusaurus</strong> and currently being served from . . . maybe check the response headers and stuff because I don't know where it might end up six months from now.</p>]]></content:encoded>
-            <category>hello</category>
-            <category>welcome</category>
         </item>
     </channel>
 </rss>
