@@ -14,4 +14,4 @@ I keep two blogs on this website.
 
 You can navigate to both the `Blog` and the `Journal` sections from the navbar above.
 
-- [2025-04-09] My resume is up as a blog-post at https://www.nakam.org/blog/resume
+- [2025-04-09] My resume is up as a blog-post at https://www.nakam.org/blog/resume-umesh-poswal
