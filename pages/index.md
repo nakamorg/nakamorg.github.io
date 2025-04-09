@@ -13,3 +13,5 @@ I keep two blogs on this website.
 2. **Journal** - Think of this as my daily diary—a space where I document my day-to-day life, personal anecdotes, spontaneous thoughts, and whatever else comes to mind. The `Journal` is less about formal writing and more about sharing life as it happens, in its most authentic form.
 
 You can navigate to both the `Blog` and the `Journal` sections from the navbar above.
+
+- [2025-04-09] My resume is up as a blog-post at https://www.nakam.org/blog/resume
