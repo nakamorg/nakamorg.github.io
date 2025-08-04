@@ -31,7 +31,7 @@ slug: $(date +%Y)/${snake_blog_name}
 tags:
 - '$(date +%Y-%m)'
 - '$(date +%Y)'
-hide_table_of_contents: true
+hide_table_of_contents: false
 ---
 Today has been a please do something ab<!-- truncate -->out this and those.
 "
