@@ -19,3 +19,9 @@ I've been thinking about managing a reading list, basically a list of urls or ex
 
 ## 2025-08
 - [engineering-buy-in](https://venki.dev/notes/engineering-buy-in) - You work at a tech company, and have an excellent project idea that you’d like to pursue. How do you convince those around you? The most important tactic: individually talk about it with many relevant people, before you finally pitch it to a decision-making group
+
+## 2026-01
+- [The Buy Vs. Build Dilemma](https://medium.com/@jesse_rosel/choose-wisely-the-build-vs-buy-dilemma-62431a86b79c) - Discusses on when to vs build. It hinges the decision on two factors. Competative advantage and core competency. If an org gets competative advantage by building, it should invest in building (more so if it has core competency in that field). Otherwise, it's better to buy the stuff.
+- [Thin Desires Are Eating Your Life](https://www.joanwestenberg.com/thin-desires-are-eating-your-life/?utm_source=tldrnewsletter) - Author puts the desires as thick and thin. A thick desire is one that changes you in the process of pursuing it. A thin desire is one that doesn't.
+- [How I influence tech company politics as a staff software engineer](https://www.seangoedecke.com/how-to-influence-politics) - As an engineer you might not have much political capital to get approvals for starting a project. But you can leverage executives' political power to drive your projects. For ex: If your VP is pushing for more reliability, you can use that opportunity to get approved and start your relaibility related project(s). The post recommends keeping a list of project ideas handy.
+- [The Software Essays that Shaped Me](https://refactoringenglish.com/blog/software-essays-that-shaped-me) - A list of 10 essays including entries from Joel Spolsky, Alexis King.
